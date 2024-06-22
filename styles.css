@@ -1,0 +1,45 @@
+/* styles.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn.cancel {
+    background-color: #6c757d;
+}
+
+.btn.delete {
+    background-color: #dc3545;
+}
+
+.thumbnail {
+    max-width: 150px;
+    height: auto;
+    margin-top: 10px;
+}
